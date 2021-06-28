@@ -1,0 +1,357 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1,minimun-scale=1">
+  <title>Portfolio Website</title>
+  <script src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
+  <script src="https://thodorisbais.github.io/percircle/dist/js/percircle.js"></script>
+  <link rel="stylesheet" type="text/css" href="https://thodorisbais.github.io/percircle/dist/css/percircle.css">
+  <link rel="stylesheet" href="https://maxst.icons8.com/vue-static/landings/line-awesome/line-awesome/1.3.0/css/line-awesome.min.css">
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+
+  <div class="wrapper">
+    <input type="checkbox" id="menu-toggle"></input>
+    <header>
+      <h3>Portfo<span>lio.</span></h3>
+      
+      <div class="main-menu">
+        <ul>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#portfolio">Portfolio</a></li>
+          <li><a href="#services">Services</a></li>
+
+          <li class="hide-sm">
+            <a href="">
+              <span class="las la-search"></span>
+            </a>
+          </li>
+
+          <li class="hide-sm">
+            <a href="">
+              <span class="lab la-instagram"></span>
+            </a>
+          </li>
+
+          <li class="contact">
+            <a href="#contact">
+              <span class="las la-sms"></span>
+              Contact
+            </a>
+          </li>
+        </ul>
+      </div>
+
+      <label for="menu-toggle">
+        <span class="las la-bars"></span>
+      </label>
+    </header>
+
+    <div class="hero" id="home">
+      <h1> <span class="helo">Hello, my name is</span> <br> <span class="name">Firly Marshya</span> <br>                                               <span class="web">And I'm a</span> <span class="design">Web Developer</span></h1>
+      <a href="">
+        <span class="las la-plug"></span>
+        <small>Get Started</small>
+      </a>
+      <img src="img/foto.jpg" alt="">
+    </div>
+  </div>
+
+  <div class="page-divide">
+      <div class="divide"></div>
+      <div class="divide-line right"></div>
+  </div>
+
+  <div class="wrapper" id="about">
+    <section>
+      <div class="section-title">
+        <h1>Institutional</h1>
+        <span>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore</span>
+      </div>
+
+      <div class="vid-wrapper" style="background-image: url(img/laptop.jpg);">
+        <div class="las la-play"></div>
+      </div>
+    </section>
+  </div>
+
+  <div class="page-divide">
+      <div class="divide"></div>
+      <div class="divide-line left"></div>
+  </div>
+
+  <div class="wrapper" id="skills">
+    <section>
+      <div class="section-title">
+        <h1>My Skills</h1>
+        <span>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna</span>
+      </div>
+
+      <div class="skills-wrapper">
+        <div class="skill-1">
+          <div id="pie-1" data-percent="100"></div>
+          <p>HTML</p>
+        </div>
+        <div class="skill-2">
+          <div id="pie-2" data-percent="100"></div>
+          <p>CSS</p>
+        </div>
+        <div class="skill-3">
+          <div id="pie-3" data-percent="100"></div>
+          <p>Java Script</p>
+        </div>
+        <div class="skill-4">
+          <div id="pie-4" data-percent="100"></div>
+          <p>PHP</p>
+        </div>
+      </div>
+    </section>
+  </div>
+
+  <div class="page-divide">
+      <div class="divide"></div>
+      <div class="divide-line right"></div>
+  </div>
+
+  <div class="wrapper" id="portfolio">
+    <section>
+      <div class="section-title">
+        <h1>Portfolio</h1>
+        <span>Lorem ipsum dolor sit amet, consectetur adipisicing</span>
+      </div>
+
+      <div class="portfolio-wrapper">
+        <div class="bg-wrap left"></div>
+        <div class="bg-wrap right" id="bg-right"></div>
+        <div class="portfolio">
+          <h3>Visual Art</h3>
+          <span>Lorem ipsum dolor sit amet, consectetur adipisicing elit</span>
+          <div class="img-portfolio" style="background-image: url(img/visualart.jpg);"></div>
+        </div>
+        <div class="portfolio">
+          <h3>Abstract Design</h3>
+           <span>Lorem ipsum dolor sit amet, consectetur adipisicing elit</span>
+          <div class="img-portfolio" style="background-image: url(img/abstractdesign.jpg);"></div>
+        </div>
+
+        <div class="portfolio">
+          <h3>Creative Painting</h3>
+          <span>Lorem ipsum dolor sit amet, consectetur adipisicing elit</span>
+          <div class="img-portfolio" style="background-image: url(img/creativepainting.jpg);"></div>
+        </div>
+      </div>
+    </section>
+  </div>
+
+  <div class="page-divide">
+      <div class="divide"></div>
+      <div class="divide-line left"></div>
+  </div>
+
+  <div class="wrapper" id="services">
+    <section>
+      <div class="section-title">
+        <h1>My Services</h1>
+        <span>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do</span>
+      </div>
+
+      <div class="services-grid">
+        <div class="bg-grid left"></div>
+        <div class="bg-grid right"></div>
+        <div class="service">
+          <h3>Web Design</h3>
+          <span class="las la-paint-brush"></span>
+          <p>What is Lorem Ipsum Lorem Ipsum is <br> simply dummy text of the printing <br> and 
+          typesetting industry</p>
+        </div>
+
+        <div class="service">
+          <h3>Advertising</h3>
+          <span class="las la-chart-bar"></span>
+          <p>What is Lorem Ipsum Lorem Ipsum is <br> simply dummy text of the printing <br> and 
+          typesetting industry</p>
+        </div>
+
+        <div class="service">
+          <h3>Apps Design</h3>
+          <span class="las la-code"></span>
+          <p>What is Lorem Ipsum Lorem Ipsum is <br> simply dummy text of the printing <br> and 
+          typesetting industry</p>
+        </div>
+
+        <div class="service">
+          <h3>Web Development</h3>
+          <span class="las la-file-code"></span>
+          <p>What is Lorem Ipsum Lorem Ipsum is <br> simply dummy text of the printing <br> and 
+          typesetting industry</p>
+        </div>
+
+        <div class="service">
+          <h3>Motion Graphic Design</h3>
+          <span class="las la-object-group"></span>
+          <p>What is Lorem Ipsum Lorem Ipsum is <br> simply dummy text of the printing <br> and 
+          typesetting industry</p>
+        </div>
+
+        <div class="service">
+          <h3>Web Application</h3>
+          <span class="las la-layer-group"></span>
+          <p>What is Lorem Ipsum Lorem Ipsum is <br> simply dummy text of the printing <br> and 
+          typesetting industry</p>
+        </div>
+      </div>
+    </section>
+  </div>
+
+  <div class="page-divide">
+      <div class="divide"></div>
+      <div class="divide-line right"></div>
+  </div>
+
+  <div class="wrapper">
+    <section>
+      <div class="brands">
+        <span class="lab la-magento"></span>
+        <span class="lab la-sass"></span>
+        <span class="lab la-hips"></span>
+        <span class="lab la-less"></span>
+        <span class="lab la-squarespace"></span>
+      </div>
+    </section>
+  </div> 
+
+  <div class="page-divide">
+      <div class="divide"></div>
+      <div class="divide-line left"></div>
+  </div>
+
+  <div class="wrapper" id="contact">
+    <section>
+      <div class="contact-grid">
+        <div class="form-wrapper">
+          <div class="form-title">
+            <h2><span>Le</span>ts talk?</h2>
+            <small>Don't wait until tomorrow</small>
+
+            <div class="form">
+              <form action="">
+                <div class="form-group">
+                  <input type="text" placeholder="Full Name" class="form-control"></input>
+                </div>
+
+                <div class="form-group">
+                  <input type="text" placeholder="Email@example.com" class="form-control"></input>
+                </div>
+
+                <div class="form-group">
+                  <textarea cols="30" rows="10" type="text" placeholder="Message" class="form-control"></textarea>
+                </div>
+
+                <div class="form-group">
+                  <button type="submit" for="submit" name="submit" class="submit">Send</button>
+                </div>
+              </form>
+              <img src="img/coding5.jpg" alt="" class="contact-img">
+            </div>
+          </div>
+        </div>
+      </div> 
+    </section>
+  </div>
+
+  <footer>
+    <div class="wrapper">
+      <div class="footer-grid">
+        <div class="about">
+          <h3>About</h3>
+          <small>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt</small>
+          <div class="socials">
+            <span class="lab la-instagram"></span>
+            <span class="lab la-facebook"></span>
+            <span class="lab la-linkedin"></span>
+            <span class="lab la-twitter"></span>
+          </div>
+        </div>
+        <div class="links">
+          <h3>Get in touch</h3>
+          <ul>
+            <li>
+              <span class="las la-phone"></span>
+              +6288-333-1233
+            </li>
+            <li>
+              <span class="las la-envelope"></span>
+              example@gmail.com
+            </li>
+            <li>
+              <span class="las la-map-marker"></span>
+              Office street, 123
+            </li>
+          </ul>
+          <button class="btn"><span class="las la-sms"></span> Send a message</button>
+        </div>
+        <div class="links">
+          <h3>Our Services</h3>
+          <ul>
+            <li>
+              Website Development
+            </li>
+            <li>
+              Building Applications
+            </li>
+            <li>
+              SEO & DIGITAL Marketing
+            </li>
+            <li>
+              Branding and Identity
+            </li>
+            <li>
+              Digital Images & Videos
+            </li>
+          </ul>
+        </div>
+        <div class="links">
+          <h3>Quick Links</h3>
+          <ul>
+            <li>
+              <a href="#home">Home</a>
+            </li>
+            <li>
+              <a href="#about">About</a>
+            </li>
+            <li>
+              <a href="#skills">Skills</a>
+            </li>
+            <li>
+              <a href="#services">Services</a>
+            </li>
+            <li>
+              <a href="#portfolio">Portfolio</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <div class="wrapper">
+    <div class="copyright">
+      <p>&copy; 2021. <span>FirlyAisya.</span> All Rights Reserved</p>
+    </div>
+  </div>
+
+  <script type="text/javascript">
+    $(function(){
+        $("#pie-1").percircle({ progressBarColor: 'crimson' });
+        $("#pie-2").percircle({ progressBarColor: 'crimson' });
+        $("#pie-3").percircle({ progressBarColor: 'crimson' });
+        $("#pie-4").percircle({ progressBarColor: 'crimson' });
+    });
+  </script>
+
+</body>
+</html>
